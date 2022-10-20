@@ -110,19 +110,17 @@ function keyPressed() {
   }
 }
 
-
-  // Function that draws the title and subtitle
-  function addTitle() {
-    this.title = 'Hackit: Particles'
-    this.subTitle = 'Press mouse to add perticles'
-    this.subTitle2 = 'Press "<-" to clear particles or "->" to change background color'
-    fill(0, 172, 230);
-    noStroke();
-    textAlign('center', 'center');
-    textSize(16);
-    text(this.title,width/2,height/20);
-    textSize(12);
-    text(this.subTitle,width/2,height/13);
-    text(this.subTitle2,width/2,height/9);
-    
-  };
+// Function that draws the title and subtitle
+function addTitle() {
+  this.title = 'Hackit: Particles'
+  this.subTitle = 'Press mouse to add perticles'
+  this.subTitle2 = 'Press "<-" to clear particles or "->" to change background color'
+  fill(0, 172, 230);
+  noStroke();
+  textAlign('center', 'center');
+  textSize(16);
+  text(this.title,width/2,height/20);
+  textSize(12);
+  text(this.subTitle,width/2,height/13);
+  text(this.subTitle2,width/2,height/9);
+};
